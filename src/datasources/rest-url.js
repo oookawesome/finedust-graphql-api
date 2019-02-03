@@ -1,6 +1,5 @@
-import * as config from "../../config";
-
 const BASE_URL = 'http://openapi.airkorea.or.kr/openapi/services/rest/ArpltnInforInqireSvc';
+const serviceKey = process.env.FINEDUST_API_SERVICE_KEY;
 
 class RestURL {
 
@@ -12,7 +11,7 @@ class RestURL {
 
     getUrl() {
         const sp = this.searchParams.length === 0 ? '' : encodeQueryData(this.searchParams);
-        return this.baseUrl + this.path + '?serviceKey=' + config.serviceKey + sp;
+        return this.baseUrl + this.path + '?serviceKey=' + serviceKey + sp;
     }
 }
 
