@@ -1,18 +1,18 @@
 {
-  "name": "finedust-graphql-openapi",
+  "name": "finedust-graphql-api",
   "version": "1.0.0",
-  "description": "GraphQL Open API for getting information about air pollution at Korea",
+  "description": "GraphQL API for getting information about air pollution at Korea",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/oookawesome/finedust-graphql-openapi.git"
+    "url": "git+https://github.com/oookawesome/finedust-graphql-api.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/oookawesome/finedust-graphql-openapi/issues"
+    "url": "https://github.com/oookawesome/finedust-graphql-api/issues"
   },
-  "homepage": "https://github.com/oookawesome/finedust-graphql-openapi#readme",
+  "homepage": "https://github.com/oookawesome/finedust-graphql-api#readme",
   "scripts": {
     "start": "npm run build && node dist/main.js",
     "build": "webpack --mode development",
